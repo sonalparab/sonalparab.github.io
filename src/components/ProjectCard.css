@@ -1,0 +1,47 @@
+.projectContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 35px 0px;
+  align-items: flex-start;
+}
+
+.verticalContainer {
+  flex-direction: column;
+  padding-left: 30px;
+  align-items: flex-start;
+}
+
+.projectTitleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.projectTitleText {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  padding-right: 20px;
+}
+
+.projectText {
+  font-size: 14px;
+  color: black;
+}
+
+.button {
+  /* background-color: #a19efc;  */
+  /* opacity: 60%; */
+  /* background-color: #8884FF; */
+  background-color: rgba(136,132,255,0.5);
+  border: none;
+  color: black;
+  padding: 7px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 10px;
+  margin: 5px 10px 5px 0px;
+  min-width: 100px;
+  min-height: 20px;
+}
