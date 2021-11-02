@@ -1,11 +1,11 @@
 import React from 'react';
+import HobbyEntry from '../components/HobbyEntry'
+
 const Interests = () => {
   return (
     <div>
-      <h3>Interests</h3>
-      <div>
-        <p>Hello World its me</p>
-      </div>
+      <HobbyEntry />
+      <HobbyEntry />
     </div>
   );
 }

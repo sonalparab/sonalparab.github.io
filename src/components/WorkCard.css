@@ -1,13 +1,13 @@
 .workContainer {
   display: flex;
   flex-direction: row;
-  padding: 35px 0px;
+  padding-bottom: 50px;
   align-items: flex-start;
 }
 
 .workVerticalContainer {
   flex-direction: column;
-  padding-left: 50px;
+  padding-left: 80px;
   align-items: flex-start;
 }
 

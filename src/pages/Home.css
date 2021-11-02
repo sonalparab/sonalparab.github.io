@@ -1,13 +1,14 @@
-.container {
+.homeContainer {
   display: flex;
-  padding: 35px 0px;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: center;
   align-items: flex-start;
 }
 
-.text {
+.homeText {
   color: black;
-  padding-left: 30px;
+  padding-left: 50px;
 }
 
 .headshot {

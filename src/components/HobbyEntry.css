@@ -1,0 +1,28 @@
+.hobbyContainer {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+  align-items: flex-start;
+}
+
+.hobbyVerticalContainer {
+  flex-direction: column;
+  padding-left: 0px;
+  align-items: flex-start;
+}
+
+.hobbyTitleText {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  padding-right: 20px;
+}
+
+.hobbyDescriptionText {
+  font-size: 14px;
+  color: black;
+}
+
+.hobbyImg {
+  padding-right: 50px;
+}

@@ -1,13 +1,13 @@
 .projectContainer {
   display: flex;
   flex-direction: row;
-  padding: 35px 0px;
+  padding-bottom: 50px;
   align-items: flex-start;
 }
 
 .verticalContainer {
   flex-direction: column;
-  padding-left: 30px;
+  padding-left: 50px;
   align-items: flex-start;
 }
 
