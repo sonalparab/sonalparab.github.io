@@ -1,10 +1,12 @@
 import React from 'react';
+import WorkCard from '../components/WorkCard'
+
 const Experience = () => {
   return (
     <div>
-      <h3>Experience</h3>
       <div>
-        <p>Hello World its me</p>
+        <WorkCard />
+        <WorkCard />
       </div>
     </div>
   );

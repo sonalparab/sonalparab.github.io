@@ -9,3 +9,7 @@
   color: black;
   padding-left: 30px;
 }
+
+.headshot {
+  border-radius: 50%;
+}

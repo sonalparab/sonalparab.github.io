@@ -3,7 +3,7 @@ import "./ProjectCard.css"
 import PlaceholdImage from "../images/ProjectPlaceholder.png";
 import GithubLogo from "../images/github.png"
 
-const Card = ({
+const ProjectCard = ({
   projectImage = PlaceholdImage,
   name = "Project Name",
   description = "This is a placeholder project description about the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -227,4 +227,4 @@ const Card = ({
   );
 };
 
-export default Card;
+export default ProjectCard;

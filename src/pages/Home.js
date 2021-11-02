@@ -5,7 +5,7 @@ import Headshot from "../images/Sonal.jpg";
 const Home = () => {
   return (
     <div className="container">
-      <img height={200} width={200} src={Headshot} align="left" />
+      <img height={200} width={200} src={Headshot} align="left" className="headshot" />
       <div className="text">
         My name is Sonal.
         <p>I am interested in software development.</p>
