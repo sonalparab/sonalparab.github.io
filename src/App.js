@@ -10,7 +10,8 @@ import Interests from "./pages/Interests"
 function App() {
   return (
     <div style={{ margin: "30px 100px" }}>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
+        {/* #basename={process.env.PUBLIC_URL} */}
         <Header />
         <Switch>
           <Route path='/' exact component={Home} />
