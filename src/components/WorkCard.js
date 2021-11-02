@@ -14,7 +14,6 @@ const WorkCard = ({
 
   const technologyButtons = () =>
     technologies.map((tech) => {
-      console.log(tech);
       return <button className="button">
         {tech}
       </button>

@@ -17,7 +17,7 @@ const Navbar = () => {
       <li>
         <Link to="/interests">Interests</Link>
       </li>
-    </ul>
+    </ul >
   );
 }
 
