@@ -14,7 +14,7 @@ const WorkCard = ({
 
   const technologyButtons = () =>
     technologies.map((tech) => {
-      return <button className="button">
+      return <button className="button" key={tech}>
         {tech}
       </button>
     });
@@ -26,15 +26,9 @@ const WorkCard = ({
       <img height={250} width={250} src={companyImage} align="left" className="img" />
       <div className="workVerticalContainer">
         <div className="workText">
-          {/* <div className="workTitleContainer"> */}
           <div className="workTitleText">{companyName}</div>
           <div className="workPositionText">{position}</div>
           <div className="workLocationText">{location}</div>
-          {/* <a href="https://www.github.com/">
-              <img src={GithubLogo}
-                width={30} height={30} />
-            </a> */}
-          {/* </div> */}
           <p>{description}</p>
         </div>
         {technologyButtons()}

@@ -3,7 +3,6 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  align-items: flex-start;
 }
 
 .homeText {
@@ -13,4 +12,15 @@
 
 .headshot {
   border-radius: 50%;
+}
+
+.iconContainer {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.iconImg {
+  padding-right: 10px;
 }
