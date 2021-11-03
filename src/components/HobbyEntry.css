@@ -5,6 +5,10 @@
   align-items: flex-start;
 }
 
+.imageContainer {
+  min-width: 700px;
+}
+
 .hobbyVerticalContainer {
   flex-direction: column;
   padding-left: 0px;

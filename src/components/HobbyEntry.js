@@ -12,8 +12,10 @@ const HobbyEntry = ({
   return (
 
     <div className="hobbyContainer">
-      <img height={300} width={250} src={image1} align="left" className="hobbyImg" />
-      <img height={300} width={350} src={image2} align="left" className="hobbyImg" />
+      <div className="imageContainer">
+        <img height={300} width={250} src={image1} align="left" className="hobbyImg" />
+        <img height={300} width={350} src={image2} align="left" className="hobbyImg" />
+      </div>
       <div className="hobbyVerticalContainer">
         <div className="hobbyText">
           <div className="hobbyTitleText">{name}</div>
