@@ -5,6 +5,7 @@ import GithubLogo from "../images/github.png"
 
 const ProjectCard = ({
   projectImage = PlaceholdImage,
+  projectVideo = "",
   projectLink = "",
   name = "Project Name",
   description = "This is a placeholder project description about the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -21,7 +22,19 @@ const ProjectCard = ({
 
   return (
     <div className="projectContainer">
-      <img height="200" width="400" src={projectImage} align="left" />
+      <div>
+        {projectVideo != "" ?
+          (
+            <video width={450} height={200} autoPlay loop muted>
+              <source src={projectVideo} type="video/mp4" />
+            </video>
+          )
+          :
+          (
+            <img height={200} width={400} src={projectImage} align="left" />
+          )
+        }
+      </div>
       <div className="verticalContainer">
         <div className="projectText">
           <div className="projectTitleContainer">

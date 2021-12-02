@@ -1,14 +1,15 @@
 .projectContainer {
   display: flex;
   flex-direction: row;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
   align-items: flex-start;
 }
 
 .verticalContainer {
   flex-direction: column;
-  padding-left: 50px;
+  padding-left: 20px;
   align-items: flex-start;
+  min-width: 400px;
 }
 
 .projectTitleContainer {
@@ -27,6 +28,10 @@
 .projectText {
   font-size: 14px;
   color: black;
+}
+
+video {
+  object-fit: fill;
 }
 
 .button {
