@@ -3,6 +3,7 @@ import "./Home.css"
 import Headshot from "../images/Sonal.jpg";
 import LinkedInLogo from "../images/LinkedIn.png"
 import EmailIcon from "../images/EmailIcon.png"
+import GithubIcon from "../images/github.png"
 
 const Home = () => {
 
@@ -24,7 +25,10 @@ const Home = () => {
             <img src={EmailIcon}
               width={30} height={30} className="iconImg" />
           </a>
-
+          <a href="https://github.com/sonalparab" target="_blank">
+            <img src={GithubIcon}
+              width={30} height={30} className="iconImg" />
+          </a>
         </div>
       </div>
     </div >
