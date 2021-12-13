@@ -12,7 +12,7 @@ const Experience = () => {
         <div>
           <WorkCard companyImage={DatadogLogo} companyName="Datadog" position="Software Engineer Intern"
             location="New York, NY" technologies={["Python", "React", "Typescript", "Git"]}
-            description="At Datadog, I worked on creating tools to help customers access their historical Datadog usage, by creating a month selector to allow uers see their usage of services in previous months and access their recent statements within the Datadog App. I also implementing an estimated month to date cost display so users could see how much their current month's usage might cost them."
+            description="At Datadog, I worked on creating tools to help customers access their historical Datadog usage, by creating a filter to allow users to see their usage of services in previous months and access their recent statements within the Datadog App. I also implementing an estimated month to date cost display so users could see how much their current month's usage might cost them."
           />
           <WorkCard companyImage={FacebookLogo} companyName="Facebook" position="Software Engineer Intern"
             location="Seattle, Washington" technologies={["Hack"]}
