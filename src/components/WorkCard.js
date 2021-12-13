@@ -1,7 +1,6 @@
 import React from "react";
 import "./WorkCard.css"
 import PlaceholdImage from "../images/CompanyLogo.png";
-// import GithubLogo from "../images/github.png"
 
 const WorkCard = ({
   companyImage = PlaceholdImage,

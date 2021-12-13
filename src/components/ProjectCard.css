@@ -35,9 +35,6 @@ video {
 }
 
 .button {
-  /* background-color: #a19efc;  */
-  /* opacity: 60%; */
-  /* background-color: #8884FF; */
   background-color: rgba(136,132,255,0.5);
   border: none;
   color: black;
