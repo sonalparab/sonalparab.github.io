@@ -22,7 +22,7 @@ const WorkCard = ({
   return (
 
     <div className="workContainer">
-      <img height={200} width={200} src={companyImage} align="left" className="img" />
+      <img height={220} width={220} src={companyImage} align="left" className="img" />
       <div className="workVerticalContainer">
         <div className="workText">
           <div className="workTitleText">{companyName}</div>

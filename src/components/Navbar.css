@@ -11,7 +11,6 @@
 
 .nav a{
   display:inline-block;
-  /* display: block; */
   color: #4500D8;
   text-align: center;
   padding: 14px 16px;
@@ -22,31 +21,4 @@
 .nav a:hover {
   color: #CD91FF;
 } 
-
-
-/* ul {
-  position: sticky;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #809fff;
-  justify-content: center;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #e6ecff;
-} */
 

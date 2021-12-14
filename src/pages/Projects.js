@@ -22,7 +22,7 @@ const Projects = () => {
             description="I worked with a partner to create a terminal version of Hangman. We implemented solo, competitive, and cooperative game modes, with multiplayer game modes playable over a server with a client."
             projectVideo={Hangman} />
           <ProjectCard name="Crime Rate Visualization" technologies={["Javascript", "d3", "HTML", "Python", "Git"]}
-            description="I worked with a team of 4 to create a visualization of crime rates in the United States. Users can select a different crime type that they wish to view and then hover over the states to see the city with the top rates of those crimes in each state and click the state to see the a pie chart of the breakdown of each crime type in that state and a line chart of how that rate of that crime type has changed over the years."
+            description="I worked with a team of 4 to create a visualization of crime rates in the United States. Users can select a different crime type that they wish to view and then hover over a state to see the city with the top rates of those crimes in a sidebar. Users can also click a state to see the a pie chart of the breakdown of each crime type in that state and a line chart of how the rate of that crime type has changed over the years."
             projectVideo={CrimeRates} />
         </div>
       </div>

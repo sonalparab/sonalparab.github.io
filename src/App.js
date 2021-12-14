@@ -8,7 +8,7 @@ import Interests from "./pages/Interests"
 
 function App() {
   return (
-    <div style={{ margin: "30px 100px" }}>
+    <div style={{ margin: "30px 70px" }}>
       <Router>
         <Header />
         <Switch>
