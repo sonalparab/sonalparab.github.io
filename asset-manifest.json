@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.210de445.chunk.css",
-    "main.js": "/static/js/main.4943ef8b.chunk.js",
-    "main.js.map": "/static/js/main.4943ef8b.chunk.js.map",
+    "main.css": "/static/css/main.9723fe91.chunk.css",
+    "main.js": "/static/js/main.d3c47ee0.chunk.js",
+    "main.js.map": "/static/js/main.d3c47ee0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.95a9a87d.js",
     "runtime-main.js.map": "/static/js/runtime-main.95a9a87d.js.map",
     "static/js/2.1eca77d9.chunk.js": "/static/js/2.1eca77d9.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.4588b27a.chunk.js": "/static/js/3.4588b27a.chunk.js",
     "static/js/3.4588b27a.chunk.js.map": "/static/js/3.4588b27a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.210de445.chunk.css.map": "/static/css/main.210de445.chunk.css.map",
+    "static/css/main.9723fe91.chunk.css.map": "/static/css/main.9723fe91.chunk.css.map",
     "static/js/2.1eca77d9.chunk.js.LICENSE.txt": "/static/js/2.1eca77d9.chunk.js.LICENSE.txt",
     "static/media/Bowling1.f9c3a7e0.jpg": "/static/media/Bowling1.f9c3a7e0.jpg",
     "static/media/Bowling2.ee0e9817.jpeg": "/static/media/Bowling2.ee0e9817.jpeg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.95a9a87d.js",
     "static/js/2.1eca77d9.chunk.js",
-    "static/css/main.210de445.chunk.css",
-    "static/js/main.4943ef8b.chunk.js"
+    "static/css/main.9723fe91.chunk.css",
+    "static/js/main.d3c47ee0.chunk.js"
   ]
 }
